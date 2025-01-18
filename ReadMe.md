@@ -1,3 +1,13 @@
+# Project Overview
+This repository is a personal project aimed at facilitating the local execution of Hugging Face models.
+
+This project demonstrates how to download and run Hugging Face models on a local machine. It serves as a learning exercise to understand the process of model retrieval, setup, and execution without relying on external servers.
+
+### Key Features
+
+- Local Model Execution: Run pre-trained models directly on your hardware, ensuring data privacy and reducing latency.
+- Hands-On Learning: Gain practical experience in setting up and utilizing natural language processing models locally.
+
 # Prerequisites
 
 Ensure you have Python 3.7 or later installed. Install the required libraries before running the script.
@@ -88,3 +98,10 @@ translated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(f"Translated Text: {translated_text}")
 
 ```
+### References
+
+- [Used Model](https://huggingface.co/google/flan-t5-small)
+- [Followed Vedios](https://youtu.be/Ay5K4tog5NQ?si=KYLau0giQ6gX8jnF)
+- [Pytorch Installation](https://pytorch.org/get-started/locally/)
+
+This README was generated with the assistance of an AI language model.
