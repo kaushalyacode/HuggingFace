@@ -35,7 +35,7 @@ This installs PyTorch along with its vision (torchvision) and audio (torchaudio)
 In this case we have stored variable in machines environment variable.```HUGGING_FACE_API_KEY```
 
 ## Code Explained
-```
+```python
 from huggingface_hub import hf_hub_download
 import os
 
